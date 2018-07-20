@@ -1,0 +1,33 @@
+html {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url('../images/logo.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
